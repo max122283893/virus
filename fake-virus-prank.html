@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Security Alert — Demo</title>
+<style>
+*{box-sizing:border-box}body{margin:0;min-height:100vh;display:grid;place-items:center;padding:20px;background:#151923;color:#fff;font:16px Arial,sans-serif}.card{width:min(540px,100%);padding:30px;border:2px solid #ff4b55;border-radius:16px;background:#232a38;box-shadow:0 12px 45px #0008;text-align:center}.icon{font-size:54px}h1{color:#ff626a;margin:12px 0}p{line-height:1.5;color:#e7e9ef}.tag{display:inline-block;padding:7px 11px;border-radius:20px;background:#364157;color:#dce4ff;font-size:13px}button{margin-top:12px;padding:12px 20px;border:0;border-radius:8px;background:#ff5963;color:#171923;font-weight:bold;font-size:16px;cursor:pointer}small{display:block;margin-top:18px;color:#b8c0d0}
+</style>
+</head>
+<body>
+<main class="card" role="main">
+<div class="icon" aria-hidden="true">🛡️</div>
+<span class="tag">SIMULATED ALERT · DEMO ONLY</span>
+<h1>Fake Virus Warning</h1>
+<p>This is a harmless pretend warning page for a demo. It has not scanned your device and has not detected or changed anything.</p>
+<p><strong>Your device is safe. No virus was found.</strong></p>
+<button onclick="document.querySelector('main').innerHTML='<div class=&quot;icon&quot;>✅</div><h1>Prank over!</h1><p>This was only a visual demo. Nothing happened to your device.</p>'">Dismiss alert</button>
+<small>Demo page only — not a real security warning. No downloads, tracking, or pop-ups.</small>
+</main>
+</body>
+</html>
